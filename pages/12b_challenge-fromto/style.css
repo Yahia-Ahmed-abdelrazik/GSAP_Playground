@@ -22,9 +22,10 @@
   transform: scale(1.2);
 }
 
-.bubble {
+.reaction-emoji {
   position: absolute;
   font-size: 28px;
   pointer-events: none;
   will-change: transform, opacity;
+  z-index: 10;
 }
